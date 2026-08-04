@@ -1,10 +1,10 @@
-Jaudiotagger
-============
+# JAudioTagger
 
-**Note: This project is a hard-fork of [ijabs one](https://bitbucket.org/ijabz/jaudiotagger), adding better support for mp4-dash and opus formats.
-I use it for my projects but there's no guarantee it is suitable for you. Patches are welcome.**
+> !IMPORTANT
+> This project is a fork designed specifically for the [Booming Music](https://github.com/mardous/BoomingMusic) project.
+> There are no guarantees that it will work or suit the needs of other projects.
 
-*Jaudiotagger* is a Java API for audio metatagging. Both a common API and format
+**JAudioTagger** is a Java API for audio metatagging. Both a common API and format
 specific APIs are available, currently supports reading and writing metadata for:
 
 - Mp3
@@ -18,8 +18,7 @@ specific APIs are available, currently supports reading and writing metadata for
 - Dsf
 - Opus
 
-Using
------
+### Using
 
 Just add this as a Jitpack dependency:
 
@@ -29,29 +28,13 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.github.Adonai:jaudiotagger:2.3.14'
+    implementation 'com.github.mardous:jaudiotagger:2.3.14'
 }
 ```
 
-Requirements
-------------
+### Requirements
 
-*Jaudiotagger* requires Java 1.8 for a full build and install
-
-Contributing
-------------
-
-*Jaudiotagger* welcomes contributors, if you make an improvement or bug fix we are
-very likely to merge it back into the master branch with a minimum of fuss.
-
-Build
------
-
-Build is with [Maven](http://maven.apache.org).
-
-- `pom.xml` : Maven build file
-
-Directory structure as follows:
+*JAudioTagger* requires Java 1.8 for a full build and install
 
 ### Under source control
 
