@@ -50,7 +50,7 @@ public class OpusInfoReader {
         //Map to generic encodingInfo
         info.setChannelNumber(opusIdHeader.getAudioChannels());
         info.setSamplingRate(opusIdHeader.getAudioSampleRate());
-        info.setEncodingType("Opus Vorbis 1.0");
+        info.setEncodingType("Opus");
 
         // find last Opus Header
         OggPageHeader last = lastValidHeader(raf);

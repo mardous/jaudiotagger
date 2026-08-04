@@ -7,7 +7,7 @@ package org.jaudiotagger.audio.mp4;
 public enum EncoderType {
     AAC("AAC"),
     DRM_AAC("DRM AAC"),
-    APPLE_LOSSLESS("Apple Lossless"),
+    APPLE_LOSSLESS("ALAC"),
     ;
 
     private String description;
