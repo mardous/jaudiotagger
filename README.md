@@ -1,6 +1,6 @@
 # JAudioTagger
 
-> !IMPORTANT
+> [!IMPORTANT]
 > This project is a fork designed specifically for the [Booming Music](https://github.com/mardous/BoomingMusic) project.
 > There are no guarantees that it will work or suit the needs of other projects.
 
